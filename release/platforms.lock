@@ -1,0 +1,21 @@
+# Platforms Lock
+
+status: conditional
+
+allowed:
+  - github-releases
+
+conditional:
+  - gumroad
+  - lemon-squeezy
+  - sellix
+  - itch-io
+
+withheld:
+  - aggressive marketplaces
+  - attention-driven platforms
+
+Notes:
+- Platforms may move between states.
+- Movement is not triggered by performance.
+- Movement is triggered by field condition only.
