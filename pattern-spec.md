@@ -1,20 +1,24 @@
-# CSV Pattern Specification
+# Pattern Specification
 
-A CSV Pattern is a structured table that captures a repeatable
-cognitive, operational, or economic structure.
+A pattern is not data.
 
-A valid pattern must:
-- Be readable in plain text
-- Use consistent column semantics
-- Avoid embedded logic or macros
-- Remain interpretable without documentation
+A pattern is a temporally ordered record of a field state,
+expressed as a CSV file with a fixed schema.
 
-Patterns do NOT:
-- Explain themselves
-- Enforce usage
-- Contain automation
+Rules:
 
-Meaning emerges through use, not instruction.
+- Each row represents a discrete moment.
+- Temporal order is mandatory.
+- No row is optimized, summarized, or corrected.
+- Meaning is not extracted; it is retained.
+
+Patterns do not explain themselves.
+They remain intact regardless of interpretation.
+
+A pattern is complete when produced.
+No updates, patches, or revisions are allowed.
+
+Reproduction is conditional, not duplicative.
 
 ---
 
