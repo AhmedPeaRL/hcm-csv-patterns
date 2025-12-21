@@ -1,12 +1,17 @@
 # Licensing
 
-Patterns are released under permissive licenses
-unless explicitly stated.
+All artifacts are released under a permissive license.
 
-Attribution is appreciated, not enforced.
+Usage is allowed.
+Modification is allowed.
+Redistribution is allowed.
 
-Meaning is not owned.
-Structure is shared.
+Attribution is appreciated but not enforced.
+
+No artifact enforces meaning.
+No artifact demands preservation of intent.
+
+The system trusts the field to handle misuse.
 
 ---
 
