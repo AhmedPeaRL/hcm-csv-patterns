@@ -1,0 +1,36 @@
+name: generate-pattern
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check field condition
+        run: |
+          if ! grep -q "status: allowed" field/field-condition.lock; then
+            echo "Generation withheld."
+            exit 0
+          fi
+
+      - name: Generate artifact placeholder
+        run: |
+          ts=$(date -u +"%Y%m%d-%H%M")
+          echo "timestamp,source,state" > output/generated-$ts.csv
+          echo "$(date -u +"%Y-%m-%d %H:%M UTC"),field,emerged" >> output/generated-$ts.csv
+
+      - name: Commit artifact
+        run: |
+          git config user.name "hcm-generator"
+          git config user.email "generator@hcm.local"
+          git add output/
+          git commit -m "generate: new artifact" || echo "No changes"
+          git push
