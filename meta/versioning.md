@@ -1,11 +1,16 @@
 # Versioning
 
-Patterns use semantic clarity, not semantic versioning.
+Artifacts are immutable.
 
-Changes are logged when meaning changes,
-not when formatting changes.
+There is no semantic versioning.
+There are no major, minor, or patch updates.
 
-Stability is preferred over iteration.
+Each artifact is final at the moment of creation.
+
+If a new condition emerges, a new artifact may appear.
+The previous artifact remains untouched.
+
+Time replaces version numbers.
 
 ---
 
