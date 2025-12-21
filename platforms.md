@@ -1,21 +1,25 @@
-# Distribution Platforms (Conceptual)
+# Distribution Platforms
 
-Primary Economic Interfaces:
+Artifacts from this repository may be released through multiple platforms.
+
+These platforms are interfaces, not goals.
+
+Supported interfaces include:
+- GitHub Releases
 - Gumroad
 - Lemon Squeezy
 - Sellix
 - itch.io
-
-Secondary Resonance Interfaces:
-- GitHub Releases
 - GitHub Sponsors
 - Ko-fi
-- Payhip
 
-This repository does not perform uploads.
-It defines compatibility only.
+Platform-specific formatting must never alter the artifact itself.
+Only packaging may change.
 
-Dispatch automation is external by design.
+No platform metrics influence production.
+No platform feedback modifies generation.
+
+The artifact precedes the interface.
 
 ---
 
