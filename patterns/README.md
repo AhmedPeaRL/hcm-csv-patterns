@@ -1,16 +1,15 @@
-# CSV Patterns
+# Patterns Directory
 
-This directory contains individual CSV patterns.
+Each pattern in this directory is independent.
 
-Each pattern represents a stable structure that can be reused,
-reinterpreted, or recombined without loss of meaning.
+Patterns do not evolve from each other.
+There is no progression or hierarchy.
 
-Patterns are intentionally minimal.
-They do not instruct.
-They do not enforce.
-They do not automate.
+Pattern identifiers are ordinal for reference only.
+They do not imply improvement or sequence of quality.
 
-Use is free.
-Interpretation is yours.
+If multiple patterns exist, they coexist.
 
-— RX-HCM
+---
+
+RX-HCM
