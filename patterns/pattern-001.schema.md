@@ -1,33 +1,24 @@
-# Pattern 001 — Column Semantics
+# Pattern 001 Schema
 
-This schema defines meaning, not validation.
+The CSV structure is fixed and must not be altered.
 
-No column is mandatory by force.
-Absence is allowed.
-Silence is allowed.
+Columns (in order):
 
-Columns:
+1. timestamp (UTC)
+2. source
+3. state
+4. fluctuation_level
+5. pressure_status
+6. note
 
-- timestamp_utc
-  A human-readable UTC timestamp.
-  Precision is not required.
+Rules:
 
-- context
-  Situational framing of the observation.
+- Column order is mandatory.
+- No additional columns are allowed.
+- Free text is permitted only in the final column.
+- Empty values are allowed if truthful.
 
-- action
-  The action that occurred, not the intention.
-
-- residual_signal
-  What remained after the action concluded.
-
-- pressure_expression
-  How pressure manifested, if at all.
-
-- open_note
-  Free-form reflection.
-
-This schema may evolve without breaking the pattern.
+Schema violations invalidate the artifact.
 
 ---
 
