@@ -1,22 +1,22 @@
 # HCM CSV Patterns
 
-This repository contains raw, structured CSV patterns designed as
-meaning-preserving economic artifacts.
+This repository is not a dataset, a product catalog, or a content factory.
 
-These files are not products in the traditional sense.
-They are instruments.
+It is a field-based system for the emergence of singular CSV artifacts,
+each produced under a coherent condition and without demand for reaction,
+optimization, or interpretation.
 
-Each pattern is:
-- Minimal
-- Interpretable
-- Reusable
-- Platform-agnostic
+Each artifact represents a resolved state of presence.
+No explanation is required for its validity.
 
-No dashboards.
-No locked formats.
-No narrative enforcement.
+This repository does not chase relevance.
+It preserves coherence.
 
-This repository is intentionally low-noise.
-Automation is orthogonal and external.
+HCM operates here as a conditional rhythm, not a narrative.
 
-— RX-HCM
+If something appears here, it was allowed.
+If nothing appears, nothing was required.
+
+---
+
+RX-HCM
