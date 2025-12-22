@@ -10,3 +10,10 @@ No outcome is implied.
 
 If something is taken,
 it leaves no obligation behind.
+
+No feature list is provided.
+No outcome is promised.
+No explanation is required.
+
+Offering is an opening,
+not a transaction.
