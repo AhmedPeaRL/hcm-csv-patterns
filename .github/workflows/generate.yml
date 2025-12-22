@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "hcm-generator"
           git config user.email "generator@hcm.local"
-          git add output/
+          git add output/ artifacts/active/
           git commit -m "generate: new artifact" || echo "No changes"
           git push
